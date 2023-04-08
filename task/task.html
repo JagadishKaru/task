@@ -1,0 +1,286 @@
+<html>
+<head>
+ <title>learning platform</title>
+ <meta name='viewport' content='width=device-width, initial-scale=1'>
+ <style>
+    
+    .header{display:flex;
+	        
+	        height:100px;
+			width:100%;
+			background:linear-gradient(purple,blue);
+	       }
+    .logo{font-size:40px;
+          color:white;
+		  margin-top:25px;
+		  margin-left:20px;
+		  }
+   nav{display:flex;
+    }
+	.sup{color:red;
+	      margin-top:55px;
+	}
+     a{text-decoration:none;
+     color:white;
+	 }
+   a:hover{color:gray;
+      }	 	
+      ul{margin-left:500px;
+	     margin-top:50px;
+	    }
+	  li{display:inline;
+	     padding:10px;
+	  }	
+	  
+	  
+	 .main{border:solid;
+           height:500px;
+           width:100%;		   
+	 } 
+	 
+	 .section{ border:solid;
+           height:500px;
+           width:100%;	
+            background:linear-gradient(#86fde8,#a5fecb);		   
+	 } 
+	 .section1{display:flex;
+	           justify-content:space-around;
+			   margin-top:80px;
+			    border:none;
+	          }
+	 
+	 .s1{
+	     height:250px;
+		 width:25%;
+		 padding:30px 0px 50px 25px;
+		  background:linear-gradient(white,blue);
+		  border-radius:50px;
+		  box-shadow:10px 18px 13px rgb(0,0,0);
+		 }
+	 .section2{display:flex;
+	       border:solid;
+           height:500px;
+           width:100%;
+		    background:linear-gradient(lightyellow,lightyellow,hotpink);
+			 }
+	 .s2{ 
+           height:400px;
+           width:50%;
+		   margin-top:50px;
+		   padding:15px;
+		   }
+     .s3{
+          
+           width:50%;
+		  
+		   
+		   }
+     .registration{ border:solid;
+                    height:600px;
+                    width:100%;
+					 background:linear-gradient(lightgreen,skyblue,lightgreen);
+					}
+      .section3{border:solid;
+	           padding:30px 40px 10px 20px;
+				margin:60px 400px 0px 400px;
+	            background:linear-gradient(purple,blue);
+				color:white;
+				border-radius:50px;
+				box-shadow:19px 18px 10px 10px rgb(29,109,99);
+	             }	
+.btn{margin-left:200px;
+     background-color:yellow;
+	 width:100px;
+    }
+.btn:active{ background-color:green;}
+label{color:white;
+      padding-left:20px;
+     }	
+ input:hover{background-color:black;
+             color:white;
+             }
+	 
+ </style>
+</head>
+
+<body>
+    <div class="header">
+    <nav>
+      <h1 class="logo">&#128214 JK</h1><p class=sup>Vidhyan</p>
+
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">Company</a></li>
+         <li><a href="#">Projects</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">&#128269</a></li>
+       </ul>
+    </nav>
+   </div>
+   
+   <div class="main">
+           <img src="jkp3.jpg" height="500px" width="100%";/>
+    </div>
+	
+	<div class="section">
+	     <div class="section1">
+		 <div class="s1"><h2><u>Mission:</u> </h2><br>we provide best education for any type of courses as strategy
+		 <br/>we provide best education for any type of courses as strategy<br>
+		 <br/>we provide best education for any type of courses as strategy
+		 </div>
+		 <div class="s1"><h2><u>Objectives:</u></h2><br/>we bring methods for self-confidence and development 
+		 as great achieving things<br/>we provide best education for any type of courses as strategy<br>
+		 <br/>we provide best education for any type of courses as strategy
+		 </div>
+		 <div class="s1"><h2><u>vission:</u> </h2><br/>we make education is every ones right to get it.<br/>
+		 <br/>we provide best education for any type of courses as strategy<br>
+		 <br/>we provide best education for any type of courses as strategy
+		 </div>
+	     </div>
+	</div>
+	<div class="section2">
+		<div class="s2">
+		      <center> <h1 class="title"><u>JKvidhyan</u><em style="color:purple"> <u> Educational Society</u></em></h1><br/> <center> 
+		        <ol><p><br/><li>we provide best education for any type of courses as strategy</li><br>
+		           <br/><li>we provide best education for any type of courses as strategy<li?<br/>
+				  <br/> <li>we bring methods for self-confidence and development as great achieving things<li/><br/>
+				   <br/><li>we make education is every ones right to get it.we bring methods for self-confidence 
+				   and development as great achieving things<li/><br/>
+				   </p>	<ol/>	
+		</div>
+		
+		<div class="s3">
+		<img src="jkp1.jpg" height="500px" width="100%";/>
+		</div>
+		
+		</div>
+		<div class="registration">
+		
+		<div class="section3">
+		 <center>
+  
+   <form name="myform" onsubmit="return validform()"  action="output.html">
+   <table>
+    <h1><u>Register Here</u></h1>
+   <tr>
+    <td><label> Your Name:</label> <td/> 
+	<td> <input type="text" placeholder="FullName" name="name1"  pattern="[a-zA-Z ]{3,}"required/><td/> <br/><br/>
+	 </tr>
+	 
+	 
+	 <tr>
+     <td> <label> Enter Your D.O.B :</label><td/>
+     <td><input type="date"  name="date"required/><td/> <br/><br/>
+	 <tr/>
+	 
+	 <tr>
+     <td> <label>Your email:</label><td/> 
+	 <td>  <input type="email" placeholder="Email" name="email" pattern="[a-z @.]{1,}" required/><td/> </br><br/>
+	 <tr/>
+	 
+	 
+	 <tr>
+     <td><label>Mobile Number:</label><td/>
+	 <td> <input type="number"placeholder="91+" name="mobile" required/><td/> <br/><br/>
+	 <tr/>
+	 
+	 <tr>
+     <td><label>Password :</label> <td/> 
+	 <td> <input type="password" placeholder="****" name="pass1" required/><td/> <br/><br/>
+     <tr/>
+	 
+	 
+     <tr>
+     <td><label>confirm password :</label><td/> 
+	 <td>  <input type="password" placeholder="****" name="pass2" required/><td/> <br/><br/>
+     <tr/>
+	 
+	<tr>
+	<td><label><input type="checkbox" required/>Terms and conditions are accepted</label><br/><td/>
+	<tr/>
+	
+    <tr><td> <input class="btn" type="submit" value="sbmit"/><td/><tr/>	
+	
+	</table>
+     </form>
+     </center>
+	 </div>	
+		</div>
+		
+		<div class="footer">
+		<center>
+		<footer>&#169; 2023 Copyrights by <b>JKvidhyan Co</b>All rights reserved.Designed by <u>Jagadishkaru</u></footer
+		</center>
+		</div>
+		
+		<script>
+       
+	   
+	   
+	   
+	   function validform(){
+	          var Name=document.myform.name1.value
+	   
+	           if(Name=="null"||Name==""||Name==[               ]){
+			          alert("enter a proper name")
+			          return false
+			   }
+			   
+	   
+	   
+	  
+	         var Email=document.myform.email.value
+			 var atposition=Email.indexOf("@")
+			 var dotposition=Email.lastIndexOf(".")
+	   
+	     if(atposition<1 || dotposition<atposition+2 || dotposition+2>=Email.length){
+		 
+		      alert("enter a proper email")
+			  return false
+		    }
+		 
+	   
+	  
+	        var currentdate=new Date()
+	        var dob=new Date(document.myform.date.value)
+			
+		 if(dob>=currentdate){
+		 alert("enter a correct date")
+		 return false
+		 }
+       	
+	  
+	        var Number=document.myform.mobile.value
+			
+		if(Number.length == 10){
+		    return true
+		
+		}	else{
+		    alert("enter 10 digit number")
+			return false
+		
+		}
+		
+	          var password=document.myform.pass1.value  
+	          var cpassword=document.myform.pass2.value
+	   
+	       if(password.length<6){
+		         alert("Enter minimum 6 digits")
+		         return false
+		   }
+		   
+		  if(password==cpassword){
+		       return true
+             }
+          else{
+		   alert("password & confirm-password must be same")
+		    return false 
+		   } 
+     }		   
+        
+      </script>
+	
+
+</body>
+</html>
